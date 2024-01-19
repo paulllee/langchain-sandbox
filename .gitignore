@@ -1,0 +1,9 @@
+# mac folder attributes
+.DS_Store
+
+# vscode specific settings
+.vscode
+
+# python related
+__pycache__
+.env
