@@ -12,4 +12,3 @@ A sandbox used to demo LangChain and it's capabilities
 # Installation
 
 I provided a devcontainer setup that you can use at your expense. You can learn more about devcontainers [here](https://containers.dev/)
-
