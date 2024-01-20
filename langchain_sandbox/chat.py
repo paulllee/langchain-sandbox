@@ -33,5 +33,7 @@ class Chat:
         )
 
     def run(self, user_input: str) -> None:
-        response: dict[str, Any] = self.agent_executor.invoke({"input": user_input, "chat_history": self.memory})
+        response: dict[str, Any] = self.agent_executor.invoke(
+            {"input": user_input, "chat_history": self.memory.buffer_as_str}
+        )
         print("AI:", response["output"])
